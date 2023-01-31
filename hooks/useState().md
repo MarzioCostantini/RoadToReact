@@ -2,7 +2,7 @@ useState ist ein React Hook, der es Ihnen ermöglicht, den Zustand (state) Ihrer
 
 Hier ist ein Beispiel für die Verwendung des useState Hooks:
 
-#
+```
 import React, { useState } from 'react';
 
 function Example() {
@@ -18,7 +18,7 @@ function Example() {
     </div>
   );
 }
-#
+```
 
 In diesem Beispiel wird eine Zustandsvariable namens count mit dem Wert 0 initialisiert. Die useState-Funktion gibt ein Array mit zwei Elementen zurück: den aktuellen Wert des Zustands (count) und eine Funktion (setCount), mit der Sie den Zustand ändern können. In diesem Beispiel wird die setCount-Funktion bei jedem Klick auf den Button aufgerufen, um den Wert von count um 1 zu erhöhen.
 
