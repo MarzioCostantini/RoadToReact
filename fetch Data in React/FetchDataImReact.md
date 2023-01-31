@@ -1,4 +1,4 @@
-## Beispiel Code wie man Daten mit ein Loading in React fetch
+## Beispiel Code wie man Daten mit einen Loader in React fetch
 
 ```
 import React, { useState, useEffect } from 'react';
